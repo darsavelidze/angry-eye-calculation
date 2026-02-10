@@ -4,6 +4,14 @@ evaluation/
 output/
 models/
 
+# Build artifacts
+*.egg-info/
+
+# Report generation (not part of the main project)
+generate_report*.py
+*.docx
+Требования.md
+
 # Ignore debugging configurations
 /.vscode
 
